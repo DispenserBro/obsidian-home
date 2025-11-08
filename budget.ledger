@@ -17,10 +17,10 @@ alias iPolina = Income:Polina
 ; This only needs to be done once, and enables you to reconcile your
 ; Ledger file with your bank account statements.
 
-2025-11-01 Opening Balance
-    b             ₽120000
-    c              ₽10000
-    k             ₽-15000
+2025/11/01 Opening Balance
+    b                  ₽0
+    c                  ₽0
+    k                  ₽0
     Equity:OpeningBalance
 
 ; I highly recommend reading through the Ledger documentation about the basics
@@ -41,3 +41,13 @@ alias iPolina = Income:Polina
 ; If you encounter issues, please search the existing Github issues,
 ; and create a new one if your issue has not already been solved.
 ;     https://github.com/tgrosinger/ledger-obsidian/issues
+
+
+2025/11/01 Полина
+    Expenses:Polina    ₽25000.00
+    Assets:Banking
+
+
+2025/11/03 Данил
+    Expense:Danil    ₽100.00
+    Assets:Banking
