@@ -1,3 +1,4 @@
+; Алиасы для удобства записи
 alias a=Assets
 alias b=Assets:Banking
 alias c=Liabilities:Credit
@@ -18,3 +19,28 @@ alias i=Income
 ; Use this transaction to fill in the balances from your bank accounts.
 ; This only needs to be done once, and enables you to reconcile your
 ; Ledger file with your bank account statements.
+
+2025-11-08 Начальный баланс
+    ; Add a line for each bank account or credit card
+    c:Chase                   $-250.45
+    b:BankOfAmerica    $450.27
+    StartingBalance      ; Leave this line alone
+
+; I highly recommend reading through the Ledger documentation about the basics
+; of accounting with Ledger
+;     https://www.ledger-cli.org/3.0/doc/ledger3.html#Principles-of-Accounting-with-Ledger
+
+; Lots more information about this format can be found on the
+; Ledger CLI homepage. Please note however that not quite all
+; of the Ledger CLI functionality is supported by this plugin.
+;     https://www.ledger-cli.org
+
+; You can add transactions here easily using the "Add to Ledger"
+; Command in Obsidian. You can even make a shortcut to it on your
+; mobile phone homescreen. See the README for more information.
+
+; If you have questions, please use the Github discussions:
+;     https://github.com/tgrosinger/ledger-obsidian/discussions/landing
+; If you encounter issues, please search the existing Github issues,
+; and create a new one if your issue has not already been solved.
+;     https://github.com/tgrosinger/ledger-obsidian/issues
